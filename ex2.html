@@ -1,0 +1,26 @@
+<template>
+    <lightning-card>
+
+    <div>
+        <h1>Dados do Cliente</h1>
+        <div>
+            <lightning-input label="Primeiro Nome:" type="text" name="primeironome" id="primeironome" value={dadosCliente.primeironome} onchange={handleInputChange}> </lightning-input>
+        </div>
+        <div>
+            <lightning-input label="Sobrenome:" type="text" name="sobrenome" id="sobrenome" value={dadosCliente.sobrenome} onchange={handleInputChange}> </lightning-input>
+        </div>
+        <div>
+            <lightning-input label="E-mail:" type="text" name="email" id="email" value={dadosCliente.email} onchange={handleInputChange}> </lightning-input>
+        </div>
+        <div>
+            <lightning-input label="Website:" type="url" name="website" id="website" value={dadosCliente.website} onchange={handleInputChange}> </lightning-input>
+        </div>
+        <div>
+            <lightning-input label="Empresa:" type="text" name="empresa" id="empresa" value={dadosCliente.empresa} onchange={handleInputChange}> </lightning-input>
+        </div>
+        <div>
+            <lightning-input label="Receita Anual:" type="number" name="receitaanual" id="receitaanual" value={dadosCliente.receitaanual} onchange={handleInputChange}> </lightning-input>
+        </div>
+    </div>
+</lightning-card>
+</template>
